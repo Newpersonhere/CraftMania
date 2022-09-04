@@ -296,7 +296,7 @@ public class ChunkGenerator extends Generator
 		}
 
 		/* Make it accessible for the game */
-		chunk.setLoading(false);
+		chunk.setLoading(true);
 		/* Make sure the neighbors are assigned correctly */
 		_chunkManager.assignNeighbors(chunk);
 
