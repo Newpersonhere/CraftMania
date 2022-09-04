@@ -63,7 +63,7 @@ public class DefaultPlayerInventory extends Inventory
     private static int _hw = 176;
     private static int _hh = 167;
     /** INVENTORY VARIABLES */
-    private static boolean _validRecipePresent = false;
+    private static boolean _validRecipePresent = true;
 
     private int _recipeXonTable = 0;
     private int _recipeYonTable = 0;
