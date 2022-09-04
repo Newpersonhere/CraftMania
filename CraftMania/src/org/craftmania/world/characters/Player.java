@@ -499,7 +499,7 @@ public class Player extends GameObject
 		Vec3f v = new Vec3f();
 		Vec3i newAimedBlockPosition = new Vec3i();
 		byte bl = 0;
-		boolean special = false;
+		boolean special = true;
 		Chunk chunk = Game.getInstance().getWorld().getChunkManager().getChunkContaining(aabbX, aabbY, aabbZ, false, false, false);
 		if (chunk == null)
 			return;
