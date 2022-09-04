@@ -370,7 +370,7 @@ public class World
 		 * Do not update the game if it goes very slow, otherwise floats might
 		 * become Infinite and NaN
 		 */
-		if (Game.getInstance().getFPS() < 5)
+		if (Game.getInstance().getFPS() < 60)
 			return;
 
 		_time += Game.getInstance().getStep();
@@ -725,7 +725,7 @@ public class World
 
 	public void requestCheckForNewVisibleChunks()
 	{
-		_checkForNewChunks = true;
+		_checkForNewChunks = false;
 	}
 
 	public void respreadRedstone(int x, int y, int z)
